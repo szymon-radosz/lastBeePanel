@@ -1,0 +1,38 @@
+@media screen and (max-width: 480px) {
+  .recharts-wrapper,
+  .recharts-legend-wrapper,
+  .recharts-surface {
+    width: 100% !important;
+  }
+
+  .recharts-legend-wrapper {
+    left: 0 !important;
+  }
+
+  .recharts-tooltip-wrapper {
+    display: none !important;
+  }
+
+  .saveAllBtn {
+    position: relative !important;
+    margin-bottom: 10px;
+    margin-left: 15px;
+  }
+
+  .offerPagination {
+    position: relative !important;
+    padding-bottom: 15px;
+  }
+
+  .offerTable {
+    .OfferListTableRowTitle {
+      width: 100px;
+    }
+  }
+
+  .offerPrice {
+    input {
+      width: 60px;
+    }
+  }
+}

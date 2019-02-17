@@ -1,0 +1,47 @@
+.offerPagination {
+  position: absolute;
+  bottom: 0;
+
+  .pagination {
+    margin: 5px 0;
+  }
+}
+.OfferListMainWrapper {
+  height: calc(100vh - 80px);
+
+  .saveAllBtn {
+    position: absolute;
+    bottom: 3px;
+    width: 130px;
+    right: 15px;
+  }
+
+  .OfferListMainContainer {
+    display: block;
+    overflow: scroll;
+    height: calc(100vh - 125px);
+
+    .offerTable {
+      height: 100%;
+      .OfferListTableRowTr {
+        background-color: #cccccc38;
+      }
+
+      .OfferListTableRowRed {
+        background-color: #ff00003d;
+      }
+
+      /*.OfferListTableRowBrand,
+            .OfferListTableRowImgUrl,
+            .OfferListTableRowPageUrl {
+                width: 100px;
+            }*/
+
+      .OfferListTableRowDesc,
+      .OfferListTableRowTitle {
+        height: 200px;
+        resize: none;
+      }
+    }
+  }
+}
