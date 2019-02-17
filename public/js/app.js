@@ -81166,7 +81166,7 @@ function (_Component) {
             switch (_context.prev = _context.next) {
               case 0:
                 if (!(nextProps.country !== this.props.country)) {
-                  _context.next = 21;
+                  _context.next = 20;
                   break;
                 }
 
@@ -81212,13 +81212,13 @@ function (_Component) {
                 response = _context.sent;
 
               case 18:
-                console.log(response.data);
+                //console.log(response.data);
                 this.setState({
                   data: response.data
                 });
                 this.props.switchLoader(false);
 
-              case 21:
+              case 20:
               case "end":
                 return _context.stop();
             }
@@ -81285,13 +81285,13 @@ function (_Component) {
                 response = _context2.sent;
 
               case 17:
-                console.log(response.data);
+                //console.log(response.data);
                 this.setState({
                   data: response.data
                 });
                 this.props.switchLoader(false);
 
-              case 20:
+              case 19:
               case "end":
                 return _context2.stop();
             }
@@ -81573,7 +81573,7 @@ function (_Component) {
   }, {
     key: "setSignedInUser",
     value: function setSignedInUser() {
-      console.log("setSignedInUser");
+      //console.log("setSignedInUser");
       this.setState({
         userIsLoggedIn: !this.state.userIsLoggedIn
       });

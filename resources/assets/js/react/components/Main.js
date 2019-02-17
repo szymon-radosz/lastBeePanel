@@ -90,7 +90,7 @@ class Index extends Component {
   }
 
   setSignedInUser() {
-    console.log("setSignedInUser");
+    //console.log("setSignedInUser");
     this.setState({ userIsLoggedIn: !this.state.userIsLoggedIn });
   }
 

@@ -49,7 +49,7 @@ class DashboardAddedProductsToDb extends Component {
         );
       }
 
-      console.log(response.data);
+      //console.log(response.data);
       this.setState({ data: response.data });
 
       this.props.switchLoader(false);
@@ -74,7 +74,7 @@ class DashboardAddedProductsToDb extends Component {
       );
     }
 
-    console.log(response.data);
+    //console.log(response.data);
     this.setState({ data: response.data });
 
     this.props.switchLoader(false);
