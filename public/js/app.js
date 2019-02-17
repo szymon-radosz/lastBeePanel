@@ -81482,7 +81482,7 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
-var appPath = "http://127.0.0.1:8080/";
+var appPath = "https://last-bee.com";
 
 
 var Index =

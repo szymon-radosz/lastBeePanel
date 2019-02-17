@@ -11,7 +11,7 @@ import Forgot from "./forgot";
 import Reset from "./reset";
 import loader from "./../../../images/loader.svg";
 
-const appPath = "http://127.0.0.1:8080/";
+const appPath = "https://last-bee.com";
 
 import { withRouter } from "react-router-dom";
 
