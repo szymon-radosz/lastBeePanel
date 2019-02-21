@@ -11,7 +11,7 @@ import Forgot from "./forgot";
 import Reset from "./reset";
 import loader from "./../../../images/loader.svg";
 
-const appPath = "https://last-bee.com";
+const appPath = "https://wyjechani.pl";
 
 import { withRouter } from "react-router-dom";
 
